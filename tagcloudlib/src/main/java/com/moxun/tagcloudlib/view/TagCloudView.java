@@ -29,7 +29,6 @@ import android.graphics.Point;
 import android.os.Build;
 import android.os.Handler;
 import android.os.Looper;
-import android.support.annotation.IntDef;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.MotionEvent;
@@ -42,6 +41,8 @@ import com.moxun.tagcloudlib.R;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
+
+import androidx.annotation.IntDef;
 
 public class TagCloudView extends ViewGroup implements Runnable, TagsAdapter.OnDataSetChangeListener {
     private static final float TOUCH_SCALE_FACTOR = 0.8f;

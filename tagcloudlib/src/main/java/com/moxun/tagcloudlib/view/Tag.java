@@ -2,9 +2,11 @@ package com.moxun.tagcloudlib.view;
 
 import android.graphics.Color;
 import android.graphics.PointF;
-import android.support.annotation.NonNull;
 import android.view.View;
+
 import com.moxun.tagcloudlib.view.graphics.Point3DF;
+
+import androidx.annotation.NonNull;
 
 /**
  * Copyright © 2016 moxun

@@ -2,7 +2,6 @@ package com.moxun.tagcloud;
 
 import android.content.Context;
 import android.graphics.Color;
-import android.support.annotation.NonNull;
 import android.util.Log;
 import android.view.Gravity;
 import android.view.View;
@@ -15,6 +14,8 @@ import com.moxun.tagcloudlib.view.TagsAdapter;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+
+import androidx.annotation.NonNull;
 
 /**
  * Created by moxun on 16/1/19.
